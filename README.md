@@ -9,9 +9,9 @@
 
 <h2>Prerequisites</h2>
 
-- <a href="https://github.com/kirkgacias/ad-and-azuresetup"> Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs </a>
-- <a href="https://github.com/kirkgacias/ad-deployment-configuration"> Active Directory Deployment and Configuration </a>
-- <a href="https://github.com/kirkgacias/ad-user-generation">Active Directory: User Generation </a>
+- <a href="https://github.com/giovannibriones/ad-and-azuresetup"> Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs </a>
+- <a href="https://github.com/giovannibriones/ad-deployment-configuration"> Active Directory Deployment and Configuration </a>
+- <a href="https://github.com/giovannibriones/ad-user-generation">Active Directory: User Generation </a>
 
 <h2>Key Objectives</h2>
 
