@@ -3,26 +3,26 @@
 
 </p>
 
-<h1> Active Directory: Practical Scenario Simulation </h1>
+<h1> On-premises Active Directory Deployed in the Cloud (Azure) (Part 4) </h1>
 
 
-<p>Welcome to the "Active Directory: Practical Scenario Simulation" project. In this project, we'll simulate various scenarios to enhance our understanding of user provisioning, administration, and problem-solving within Active Directory.</p>
+<p>In this fourth and final part of this tutorial, various situations will be simulated to enhance understanding of user provisioning, administration, and problem-solving within Active Directory.</p>
 
 <h2>Prerequisites</h2>
 
-- <a href="https://github.com/giovannibriones/ad-and-azuresetup"> Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs </a>
-- <a href="https://github.com/giovannibriones/ad-deployment-configuration"> Active Directory Deployment and Configuration </a>
-- <a href="https://github.com/giovannibriones/ad-user-generation">Active Directory: User Generation </a>
+- <a href="https://github.com/giovannibriones/ad-and-azuresetup"> On-premises Active Directory Deployed in the Cloud (Azure) (Part 1) </a>
+- <a href="https://github.com/giovannibriones/ad-deployment-configuration"> On-premises Active Directory Deployed in the Cloud (Azure) (Part 2) </a>
+- <a href="https://github.com/giovannibriones/ad-user-generation">On-premises Active Directory Deployed in the Cloud (Azure) (Part 3) </a>
 
-<h2>Key Objectives</h2>
+<h2>Main Objectives</h2>
 
-<h4>Scenario Simulation</h4>
+<h4>Situation Simulation</h4>
 
-- Engage in practical simulations of diverse scenarios, such as password resets, group membership changes, and account deactivations.
+- Participate in practical simulations of a variety of situations, such as password resets, group membership changes, and account deactivations.
 
-<h4>Troubleshooting Scenarios</h4>
+<h4>Troubleshooting Situations</h4>
 
-- Develop troubleshooting skills by simulating scenarios where users encounter access issues, and learn to identify and resolve these challenges effectively.
+- Develop troubleshooting skills by simulating situations where users are confronted with access issues, and learn to identify and resolve these challenges effectively.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -37,7 +37,7 @@
 
 
 
-<h1>Scenarios</h1>
+<h1>Situations</h1>
 
 <h3>&#9312; User Account Creation </h3>
 
@@ -45,7 +45,7 @@
 
 <p>A new software developer, John Smith, has been hired to join the IT department at your company. As part of the onboarding process, the IT help desk needs to create a new user account for John in Active Directory.</p>
 
-<p><strong>First create a new user account named "John Smith" with the username "john_smith" and a temporary password.</strong></p>
+<p><strong>First, create a new user account named "John Smith" with the username "john_smith" and a temporary password.</strong></p>
 
 <img width="324" alt="2" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/218dba86-c290-49ba-9f8c-42839329bf0b">
 
@@ -65,7 +65,7 @@
 <p><strong>.</strong></p>
 
 
-<p><strong>Then ensure that John's account is located in the appropriate Organizational Unit (OU) for IT staff.</strong></p>
+<p><strong>Then make sure that John's account is found in the proper Organizational Unit (OU) for IT staff.</strong></p>
 
 <img width="340" alt="4" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/5df07577-bc88-40c3-b964-54f86246c627">
 
@@ -73,20 +73,20 @@
 <br>
 
 - Communicate the login credentials and temporary password to John through a secure channel.
-- Document the date and time of account creation for auditing purposes.
+- Record the date and time of account creation for auditing purposes.
   
 <h4>Considerations:</h4>
 
-- The temporary password should meet the company's password policy requirements.
-- Ensure that John has the necessary permissions and group memberships to access the resources required for his role.
+- The temporary password should meet the company's password policy standards.
+- Make sure that John has the necessary permissions and group memberships to obtain the resources required for his role.
 
 <h3>&#9313; Password Reset </h3>
 
 <h4>Background:</h4>
 
-<p> Sarah Thompson, a marketing executive, contacts the IT help desk reporting that she has forgotten her password and is unable to access her computer and email. The help desk needs to assist Sarah in resetting her password in Active Directory.</p>
+<p> Sarah Thompson, a marketing executive, contacts the IT help desk reporting that she has forgotten her password and is not able to enter into her computer and email. The help desk needs to help Sarah in resetting her password in Active Directory.</p>
 
-<p><strong> Locate Sarah's user account and initiate a password reset.</strong></p>
+<p><strong> Find Sarah's user account and start a password reset.</strong></p>
 
 <img width="383" alt="5" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/cfaa21b5-0c19-4422-bf9e-958f5baa44ba">
 
@@ -96,20 +96,20 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<p><strong>Set a temporary password for Sarah that complies with the company's password policy.</strong></p>
+<p><strong>Set a temporary password for Sarah that follows the company's password standards.</strong></p>
 
 <img width="383" alt="6" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/24babf1d-94fb-4dd2-8295-84a26d5558a7">
 
 
-<p><strong>NOTE: Make sure to click the highlighted boxes to ensure the user’s account is unlocked and enable them to set their own password. </strong></p>
+<p><strong>NOTE: Make sure to choose the highlighted boxes to make sure the user’s account is unlocked and cause them to be able to set their own password. </strong></p>
 
-- Communicate the temporary password to Sarah through a secure channel and instruct her to change it immediately upon login.
-- Provide guidance on how to change the password using the company's self-service password reset tool if available.
-- Document the date and time of account creation for auditing purposes.
+- Communicate the temporary password to Sarah through a secure channel and instruct her to change it immediately after logging in.
+- Guide how to change the password using the company's self-service password reset tool if available.
+- Record the date and time of account creation for auditing purposes.
 
 <h4>Considerations:</h4>
 
-- Ensure that the chosen temporary password is strong and complies with the company's password policy.
+- Make sure that the chosen temporary password is strong and follows the company's password standards.
 - Remind Sarah to update the password on any additional devices or applications where the old password was saved.
 
 <p><strong>.</strong></p>
@@ -139,28 +139,28 @@
 <p><strong>.</strong></p>
 
 
-<p><strong>Confirm that Emma now has the necessary access rights to project folders and relevant network resources.</strong></p>
+<p><strong>Make sure that Emma now has the necessary access rights to project folders and relevant network resources.</strong></p>
 
 <img width="600" alt="9" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/e43a00de-6f50-4e00-928a-1ce9cd9ea70f">
 
 
 - Communicate the group membership update to Emma, along with any additional instructions or changes in access.
-- Document the whole process
+- Record the whole process
 
 
 <h4>Considerations:</h4>
 
-- Ensure that Emma's new group memberships align with her managerial responsibilities.
+- Make sure that Emma's new group memberships coincide with her managerial responsibilities.
 - Communicate the changes to other relevant parties, such as the IT security team, to maintain awareness.
-- Verify that Emma's access permissions are correctly configured after the group membership update.
+- Make sure that Emma's access permissions are correctly set after the group membership update.
 
 <h3>&#9315; Account Deactivation </h3>
 
 <h4>Background:</h4>
 
-<p>Mark Johnson, a network administrator, has recently resigned from the company. The IT help desk needs to deactivate Mark's user account in Active Directory to prevent unauthorized access and ensure the security of company resources.</p>
+<p>Mark Johnson, a network administrator, has recently resigned from the company. The IT help desk needs to deactivate Mark's user account in Active Directory to prevent unauthorized access and make sire the company resources are secured.</p>
 
-<p><strong>Locate Mark's user account and initiate the account deactivation process.</strong></p>
+<p><strong>Find Mark's user account and start the account deactivation process.</strong></p>
 
 <img width="421" alt="10" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/052df505-133e-45a0-93e4-9477144cb3ed">
 
@@ -169,7 +169,7 @@
 <p><strong>.</strong></p>
 
 
-<p><strong>Disable Mark's account to prevent further logins while retaining the account details for reference.</strong></p>
+<p><strong>Disable Mark's account to prevent further logins while keeping the account details for reference.</strong></p>
 
 <img width="470" alt="11" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/76f7e808-fbb6-4120-bd49-851655c1007c">
 
@@ -178,7 +178,7 @@
 <p><strong>.</strong></p>
 
 
-<p><strong>You may receive a confirmation dialog; click "Yes" to confirm the disabling of the user account.</strong></p>
+<p><strong>You may receive a confirmation dialog; click "Yes" to make sure of the disabling of the user account.</strong></p>
 
 <img width="223" alt="12" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/664127cd-c1bf-4141-92e5-b844b3613b8b">
 
@@ -187,7 +187,7 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<p><strong>Remove Mark from all security groups to revoke his access to network resources.</strong></p>
+<p><strong>Remove Mark from all security groups to take away his access to network resources.</strong></p>
 
 <img width="295" alt="13" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/d7a8062f-b30a-4551-92cd-be65fe0341c6">
 
@@ -195,7 +195,7 @@
 <br>
 <br>
 
-<p><strong> Confirm with other relevant departments (e.g., HR) that Mark's departure aligns with company policies and document the whole process.</strong></p>
+<p><strong> Make sure with other relevant departments (e.g., HR) that Mark's departure aligns with company standards and record the whole process.</strong></p>
 
 <h4>Considerations:</h4>
 
@@ -211,7 +211,7 @@
 
 <h4>Background:</h4>
 
-<p>The Sales department has recently undergone a reorganization, resulting in the creation of a new team focused on international sales. The IT help desk needs to reflect this change in the Active Directory structure by creating a new Organizational Unit (OU) for the International Sales team and moving relevant user accounts into the new OU.
+<p>The Sales department has recently went through a reorganization, resulting in the creation of a new team focused on international sales. The IT help desk needs to reflect this change in the Active Directory structure by creating a new Organizational Unit (OU) for the International Sales team and moving relevant user accounts into the new OU.
 </p>
 
 <p><strong>Create a new Organizational Unit named "International Sales" within the Sales department's organizational structure.</strong></p>
@@ -223,7 +223,7 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<p><strong>Move the user accounts of team members, such as Alex Turner and Maria Sanchez, to the newly created OU.</strong></p>
+<p><strong>Transfer the user accounts of team members, such as Alex Turner and Maria Sanchez, to the newly created OU.</strong></p>
 
 <img width="307" alt="15" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/5cb8d6b4-7b29-4379-87f3-6b1df5510ea9">
 
@@ -235,7 +235,7 @@
 <p><strong>.</strong></p>
 <p><strong>.</strong></p>
 
-<p><strong> Verify that the users now appear under the "International Sales" OU in Active Directory.
+<p><strong> Make sure that the users now appear under the "International Sales" OU in Active Directory.
 </strong></p>
 
 <img width="296" alt="17" src="https://github.com/giovannibriones/ad-scenario-simulation/assets/163789590/04aa6c1a-9aab-4398-87ee-e3c1c1617994">
@@ -249,9 +249,9 @@
 
 <h4>Considerations:</h4>
 
-- Ensure that the new OU structure aligns with the company's organizational hierarchy.
+- Make sure that the new OU structure coincides with the company's organizational hierarchy.
 
-- Confirm that the appropriate Group Policy settings apply to the users within the new OU.
+- Make sure that the appropriate Group Policy settings apply to the users within the new OU.
   
 - Communicate any changes in access permissions or policies resulting from the OU reorganization to the IT security team.
 
@@ -260,4 +260,4 @@
 <h2> In Conclusion </h2>
 
 <p>
-In summary, Active Directory is crucial for managing user accounts and network resources. The scenarios provided cover common IT help desk tasks, such as creating user accounts, resetting passwords, updating group memberships, and handling account deactivation. These scenarios serve as practical exercises for training IT personnel and highlight the importance of Active Directory in maintaining a secure and organized digital environment. </p>
+In summary, Active Directory is essential for managing user accounts and network resources. The situations provided cover common IT help desk tasks, such as creating user accounts, resetting passwords, updating group memberships, and handling account deactivation. These situations serve as practical exercises for training IT personnel and highlight the importance of Active Directory in maintaining a secure and organized digital environment. </p>
